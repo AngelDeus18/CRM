@@ -1,0 +1,72 @@
+body {
+    font-family: 'Righteous', sans-serif; /* Aplica la fuente Righteous a todo el cuerpo */
+    min-height: 90%;
+}
+html{
+    background: linear-gradient(to top , #2480bd , #59cbff);
+      background-attachment: fixed; /* Fija el fondo al hacer scroll */
+      background-size: cover; 
+}
+header{
+    background: #fff;
+    display: flex;
+    width: auto;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 3%;
+    border-radius: 15px;
+    max-width: 1240px;
+    max-height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-left: 2%;
+    margin-right: 3.7%;
+    height: 550px;
+}
+main .izquierda {
+    background-color:white;
+    display: flex;
+    margin-left: 0.2%;
+    margin-top: 2%;
+    width: 95%;
+    height: 95%;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 /30%);
+    text-align: center;
+    max-width: 930px;
+    max-height: 550px;
+}
+main .derecha{
+    background-color:white;
+    display: flex;
+    margin-left: 1%;
+    margin-top: 2%;
+    width: 95%;
+    max-width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 /30%);
+    text-align: center;
+    max-height: 550px; 
+}
+.container-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo-imagen img {
+    max-width: 150px; 
+    height: auto; 
+    display: block;
+}
+
+
+
+
+
